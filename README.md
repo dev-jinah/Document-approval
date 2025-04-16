@@ -1,9 +1,11 @@
 # Document Electronic Approval System / 문서 전자 결재 시스템
 
+
 ## Overview / 개요
 This is a task to verify if it is possible to create a system according to the given requirements. / 주어진 요구 사항에 맞는 시스템을 만들 수 있는지 확인하기 위한 과제입니다.
 
 The system to be built is a **Document Electronic Approval System**. / 만들어야 할 시스템은 **문서 전자 결재 시스템**입니다.
+
 
 ## Requirements / 요구사항
 
@@ -12,6 +14,7 @@ The system to be built is a **Document Electronic Approval System**. / 만들어
     * If creating an API server, please write a script that shows the call order for typical use cases. / API 서버를 작성하는 경우 일반적인 사용 시나리오에 대한 호출 순서를 스크립트로 작성해주세요.
         * Example: Document approval: Call login API -> Call list API -> Call document view API -> Call document approval API / 예) 문서 결재: 로그인 API 호출 -> 목록 API 호출 -> 문서 보기 API 호출 -> 문서 승인 API 호출
 * Please use a DBMS to permanently store the data. / 데이터를 영구히 저장하기 위해 DBMS를 사용해주세요.
+
 
 ## Feature Specifications / 기능 명세
 
@@ -37,7 +40,6 @@ The system to be built is a **Document Electronic Approval System**. / 만들어
     * **INBOX**: Documents that require my approval. / **INBOX**: 내가 결재를 해야 할 문서
     * **ARCHIVE**: Documents that I have been involved in, and their approval status (either approved or rejected). / **ARCHIVE**: 내가 관여한 문서 중 결재가 완료(승인 또는 거절)된 문서
 
----
 
 ## Technical Requirements / 기술 요구사항
 
