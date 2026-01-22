@@ -85,3 +85,9 @@ CREATE TABLE `api_key`
     PRIMARY KEY (`id`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;
+
+--
+-- Test API Key data
+--
+INSERT INTO `api_key` (`name`, `key`, `active`, `created_at`, `expires_at`)
+VALUES ('default-client', 'test-api-key-12345', true, NOW(), NULL);
